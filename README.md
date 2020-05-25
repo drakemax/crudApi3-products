@@ -8,3 +8,6 @@ I'll use a different collection for that to the database
 
 This is more an archive for running code. 
 
+Run > npm run serve FROM the Functions directory
+This has collection product  with id(number) for collection of name, description , price
+
