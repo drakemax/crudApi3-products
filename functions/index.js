@@ -6,13 +6,13 @@ const runtimeOpts = {
 const firebase = require("firebase");
 
 var firebaseConfig = {
-  apiKey: "AIzaSyClZ3ovPUJrGmRD5lwI2GvkPqR-3wGxKlE",
-  authDomain: "crudapi3.firebaseapp.com",
-  databaseURL: "https://crudapi3.firebaseio.com",
-  projectId: "crudapi3",
-  storageBucket: "crudapi3.appspot.com",
-  messagingSenderId: "369166344068",
-  appId: "1:369166344068:web:d995bb41e09c46b32987d1",
+  apiKey: PUT YOUR INFO HERE,
+  authDomain: PUT YOUR INFO HERE,,
+  databaseURL: PUT YOUR INFO HERE,",
+  projectId: PUT YOUR INFO HERE,,
+  storageBucket: PUT YOUR INFO HERE,,
+  messagingSenderId: PUT YOUR INFO HERE,",
+  appId: PUT YOUR INFO HERE,,
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig); */
@@ -24,8 +24,8 @@ const serviceAccount = require("./permissions.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://crudapi3.firebaseio.com",
-});
+  databaseURL: PUT YOUR INFO HERE,
+})
 const db = admin.firestore();
 console.log(db);
 
