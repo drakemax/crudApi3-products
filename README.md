@@ -1,5 +1,5 @@
 # crudApi3-products
-Thisd follows the crud tutorial: 
+This follows the crud tutorial: 
 https://www.youtube.com/playlist?list=PLJetLDY7yKupm5WTx02ylh1I25rJLPvXe
 You need to link it to a firebase project with a Daabase & also initialise firebase Functions. 
 functions/index. js - You need to add Project/Database details as per videos
